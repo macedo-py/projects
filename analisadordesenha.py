@@ -1,31 +1,11 @@
-<<<<<<< HEAD
-=======
 SENHAS_COMUNS =["12345678", "password", "qwertyuiop", "abcd1234", "123456789"]
 
->>>>>>> 1501169 (Ajuste e adição de coisas no código)
 senha = input("Digite sua senha: ")
 
 tem_maiuscula = False
 tem_minuscula = False
 tem_numero = False
 tem_caractere = False
-<<<<<<< HEAD
-
-for caractere in senha:
-    if caractere.isupper():
-        tem_maiuscula = True
-    elif caractere.islower():
-        tem_minuscula = True
-    elif caractere.isdigit():
-        tem_numero = True
-    elif not caractere.isalnum():
-        tem_caractere = True
-
-if tem_maiuscula and tem_minuscula and tem_numero and tem_caractere and len(senha) >= 8:
-    print("Senha forte! Aprovada.")
-else:
-    print("Senha fraca! Verifique se ela tem no mínimo 8 caracteres, números e letras maiúsculas/minúsculas.")
-=======
 tem_especial = False
 
 caracteres_especiais = "!@#$%^&*()_+-=[]{}|;:,.<>?"
@@ -75,4 +55,3 @@ if pontos < 6:
         print("- Sua senha deve conter pelo menos um número.")
     if not tem_especial:
         print("- Sua senha deve conter pelo menos um caractere especial.")
->>>>>>> 1501169 (Ajuste e adição de coisas no código)
